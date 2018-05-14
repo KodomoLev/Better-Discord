@@ -9,27 +9,6 @@
     }
 }
 
-@keyframes Load4 {
-    0% {
-        -webkit-transform: scale(0);
-        transform: rotate(-360deg) scale(0);
-		opacity:1;
-    }
-    25% {
-        -webkit-transform: scale(1);
-        transform: rotate(-315deg) scale(.25);
-		opacity:1;
-    }50% {
-        -webkit-transform: scale(1);
-        transform: rotate(-405deg) scale(.75);
-		opacity:1;
-    }100% {
-        -webkit-transform: scale(1);
-        transform: rotate(-360deg) scale(1);
-		opacity:1;
-    }
-}
-
 @keyframes opacity {
   0% {
     opacity: 1;
