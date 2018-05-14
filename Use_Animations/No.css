@@ -1,16 +1,5 @@
 /* Animations For My Themes */
 
-@keyframes Spin {
-    0% {
-        -webkit-transform: rotate(0deg) scale(0.9);
-        transform: rotate(0deg) scale(0.9);
-    }
-    100% {
-        -webkit-transform: rotate(360deg) scale(0.9);
-        transform: rotate(360deg) scale(0.9);
-    }
-}
-
 @keyframes Talking {
     0% {
         transform: rotate(-360deg) scale(1);
