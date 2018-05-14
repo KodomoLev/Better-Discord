@@ -71,23 +71,6 @@
   }
 }
 
-@keyframes boop {
-  0% {
-    transform: translate(17px, 30px);    
-  }
-  100% {
-    transform: translate(17px, -5px);
-  }
-}
-
-@keyframes boop2 {
-  0% {
-    transform: translate(17px, -5px); 
-  }
-  100% {
-    transform: translate(17px, 50px);
-  }
-}
 
 @keyframes PFB {
   0% {
