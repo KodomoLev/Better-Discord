@@ -1,0 +1,198 @@
+/* Animations For My Themes */
+
+@keyframes Spin {
+    0% {
+        -webkit-transform: rotate(0deg) scale(0.9);
+        transform: rotate(0deg) scale(0.9);
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(0.9);
+        transform: rotate(360deg) scale(0.9);
+    }
+}
+
+@keyframes Talking {
+    0% {
+        transform: rotate(-360deg) scale(1);
+		box-shadow: 0 0 0 2px var(--Main-Colour);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+		box-shadow: 0 0 0 2px var(--Main-Colour);
+    }
+}
+
+@keyframes Load4 {
+    0% {
+        -webkit-transform: scale(0);
+        transform: rotate(-360deg) scale(0);
+		opacity:1;
+    }
+    25% {
+        -webkit-transform: scale(1);
+        transform: rotate(-315deg) scale(.25);
+		opacity:1;
+    }50% {
+        -webkit-transform: scale(1);
+        transform: rotate(-405deg) scale(.75);
+		opacity:1;
+    }100% {
+        -webkit-transform: scale(1);
+        transform: rotate(-360deg) scale(1);
+		opacity:1;
+    }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+    background-color: var(--Unread-Message-1);
+  }
+
+  50% {
+    opacity: 1;
+    background-color: var(--Unread-Message-2);
+  }
+
+  100% {
+    opacity: 1;
+    background-color: var(--Unread-Message-1);
+  }
+}
+
+@keyframes color_change {
+  from {
+    color: var(--Background-Colour);
+  }
+
+  to {
+    color: #00c416;
+  }
+}
+
+@keyframes shakeUnread {
+  0% {
+    transform: translate(calc(100% / -2 - 36px), 0);
+  }
+
+  100% {
+    transform: translate(calc(100% / 2 + 8px), 0);
+  }
+}
+
+@keyframes rainbow {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes Connecting {
+  0% {
+    background: var(--Chat-Background);
+  }
+
+  50% {
+    background: var(--Settings-Background);
+  }
+
+  100% {
+    background: var(--Callout-Background);
+  }
+}
+
+@keyframes TextScroll {
+  from {
+    left:-230px;
+  }
+
+  to {
+    left:100%;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes boop {
+  0% {
+    transform: translate(17px, 30px);    
+  }
+  100% {
+    transform: translate(17px, -5px);
+  }
+}
+
+@keyframes boop2 {
+  0% {
+    transform: translate(17px, -5px); 
+  }
+  100% {
+    transform: translate(17px, 50px);
+  }
+}
+
+@keyframes PFB {
+  0% {
+    transform: translate(0px, -70px);   
+  	opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 00px);
+	opacity: 1;
+  }
+}
+
+@keyframes Dnd {
+  0%{border: 2.5px solid rgba(240,71,71,1);}
+  50%{border: 2.5px solid rgba(240,71,71,0.4);}
+  100%{border: 2.5px solid rgba(240,71,71,1);}
+}
+
+@keyframes Online {
+  0%{border: 2.5px solid rgba(67,181,129,1);}
+  50%{border: 2.5px solid rgba(67,181,129,0.4);}
+  100%{border: 2.5px solid rgba(67,181,129,1);}
+}
+
+@keyframes Away {
+  0%{border: 2.5px solid rgba(250,166,26,1);}
+  50%{border: 2.5px solid rgba(250,166,26,0.4);}
+  100%{border: 2.5px solid rgba(250,166,26,1);}
+}
+
+@keyframes Stream {
+  0%{border: 2.5px solid rgba(89,54,149,1);}
+  50%{border: 2.5px solid rgba(89,54,149,0.4);}
+  100%{border: 2.5px solid rgba(89,54,149,1);}
+}
+
+@keyframes Offline {
+  0%{border: 2.5px solid rgba(116,127,141,1);}
+  50%{border: 2.5px solid rgba(116,127,141,0.4);}
+  100%{border: 2.5px solid rgba(116,127,141,1);}
+}
+
+
+.contentUnreadText-2vNnZc:hover, .contentUnreadText-2vNnZc{
+  background:transparent!important;
+}
