@@ -1,0 +1,94 @@
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
+@import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
+
+/* Tags */
+span.botTagRegular-2HEhHi {
+  background-color: rgba(0,216,86, 0.8) !important;
+  animation: rainbow 20s infinite linear;
+}
+
+.kawaii-tag {
+  background: #7289da;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff!important;
+  margin-left: 6px;
+  padding: 1px 2px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  line-height: 16px;
+  flex-shrink: 0;
+  animation: rainbow 20s infinite linear;
+}
+
+.compact .kawaii-tag {
+  margin: 0 3px 0 0;
+}
+
+.kawaii-tag-bright {
+  color: #23272A!important;
+}
+
+.kawaii-tag-invert {
+  background: #fff;
+  color: #7289da!important;
+}
+
+/* nitro thing */
+.member.member-status > .avatar-small[style*="a_"] + .member-inner .member-username:after {
+  content: '✔';
+  color: lime;
+  margin-left: 5px;
+  background: transparent;
+  line-height: 15px;
+  height: 14px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  border-radius: 3px;
+  margin-left: 6px;
+  padding: 1px 2px;
+  font-size: 10px;
+  font-weight: 600;
+  animation: rainbow 3s infinite linear;
+}
+
+.channel-members-loading .background {
+  background: var(--Main-Colour);
+  opacity:.1;
+  animation: rainbow 2.8s infinite linear;
+}
+
+.message-group .comment .markup .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-2s3kbY {
+  color: var(--Main-Colour) ;
+  animation: rainbow 3s infinite linear;
+}
+
+/* Search */
+
+.typing{
+  text-shadow: 0 0 6px Black, 0 0 6px Black, 0 0 5px Black, 0 0 4px Black;
+  background: rgba(216,0,86,var(--Tpying-Rainbow)) !important;
+  animation: rainbow 3s infinite linear;
+  border-radius: 5px !important;
+}
+
+.text-1rI06-{
+  text-shadow: 0 0 6px Black, 0 0 6px Black, 0 0 5px Black, 0 0 4px Black;
+  background: rgba(216,0,86,var(--Tpying-Rainbow)) !important;
+  animation: rainbow 3s infinite linear;
+  border-radius: 5px !important;
+  color:var(--Main-Colour)!important;
+  bottom:-7px!important;
+}
+
+.botTagInvert-18-95s{
+  background-color: rgba(0,216,86, 0.8) !important;
+  animation: rainbow 20s infinite linear;
+}
+
+.placeholder-oNR4zO.member-3W1lQa {
+  -webkit-animation: none!important;
+  animation: rainbow 10s ease-in-out infinite!important;
+}
