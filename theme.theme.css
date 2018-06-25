@@ -66,7 +66,7 @@
 .guilds .active .guild-inner {background-color: rgba(0,0,0,0) !Important}
 
 /* channel */
-.guilds-wrapper:hover + div .channels-Ie2l6A, .app .channels-Ie2l6A:hover {left: 62px; opacity: 1}
+.guilds-wrapper:div .channels-Ie2l6A, .app .channels-Ie2l6A:hover {left: 62px; opacity: 1}
 .container-iksrDt {background-color: rgba(20, 20, 20,1);margin-bottom:21px !Important}
 .channels-Ie2l6A {
     transition: 300ms !important;
@@ -105,6 +105,27 @@
 .theme-dark .message-group .comment .markup .mention{background:transparent;color:#f04747}
 .theme-dark .message-group .comment .markup .mention:hover{background:transparent;color:rgb(200,101,101); text-shadow: -1px -2px 7px #f04747}
 
+/*profile popout*/
+.theme-dark .quickMessage-1yeL4E {background-color: transparent;border-color: transparent;color: hsla(0,0%,100%,.7)}
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .headerNormal-T_seeN + .body-3iLsc4,
+.theme-dark .headerNormal-T_seeN  ~ .footer-1fjuF6{background:rgba(165,164,151,.85)}
+.headerPlaying-j0WQBV,
+.headerPlaying-j0WQBV + .body-3iLsc4,
+.headerPlaying-j0WQBV ~ .footer-1fjuF6{background:rgba(114,137,218,.85)}
+.headerStreaming-2FjmGz,
+.headerStreaming-2FjmGz  + .body-3iLsc4,
+.headerStreaming-2FjmGz ~ .footer-1fjuF6{background:rgba(89,54,149,.85)}
+.headerSpotify-zpWxgT,
+.headerSpotify-zpWxgT  + .body-3iLsc4,
+.headerSpotify-zpWxgT ~ .footer-1fjuF6{background:rgba(29,185,84,.85)}
+.theme-dark .topSectionNormal-2-vo2m,
+.theme-dark .topSectionNormal-2-vo2m + .body-3ND3kc{background:rgba(214, 213, 193, 0.85)}
+.topSectionSpotify-1lI0-P,
+.topSectionSpotify-1lI0-P + .body-3ND3kc{background: rgba(29,185,84,.85)}
+.topSectionPlaying-1J5E4n,
+.topSectionPlaying-1J5E4n + .body-3ND3kc{background: rgba(114,137,218,.85)}
+.topSectionStreaming-1Tpf5X + .body-3ND3kc{background: rgba(89, 54, 149, .8)}
 
 /* recent mentions & pinned messages */
 .theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX,.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {border-radius:0;background-color: rgb(145,144,131)}
