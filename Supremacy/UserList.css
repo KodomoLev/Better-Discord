@@ -1,0 +1,24 @@
+.membersWrap-2h-GB4{width:90px;min-width:unset;transition: .3s}
+.membersWrap-2h-GB4:hover{width:240px}
+.membersWrap-2h-GB4 .members-1998pB{width:240px;height:calc(100% + 30px);padding-bottom:40px}
+.membersGroup-v9BXpm{
+    width:80px;
+	height:auto;
+    font-size:10px;
+	line-height:13px;
+	white-space:normal;
+	text-align:center;
+	transition:.3s;
+	box-sizing: content-box;
+	background: hsla(0, 0%, 0%, 0.1);
+	border-radius:10px;
+	margin:1% 5px;
+	padding:1% 0
+}
+.members-1998pB:hover .membersGroup-v9BXpm{padding:1% 30%}
+#app-mount .members-1998pB,#app-mount .content-OzHfo4:hover,#app-mount .member-3W1lQa.popout-open .content-OzHfo4{background:hsla(0, 0%, 0%, 0.4)}
+.member-3W1lQa{margin:5px 20px}
+.memberInner-2CPc3V{width:140px;display:none}
+.membersWrap-2h-GB4:hover .memberInner-2CPc3V{display:block}
+.member-3W1lQa .activityText-sLG0UL{text-indent:-10vw;line-height:5px}
+.member-3W1lQa .activity-1IYsbk strong{text-indent:0;display:block;line-height:10px;white-space: normal}
