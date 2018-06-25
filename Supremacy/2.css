@@ -1,0 +1,57 @@
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR ~ :last-child:after{
+  margin-bottom: -3px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: block;
+  background:transparent;
+  border:1px solid var(--Main-Colour);
+  border-radius: 5px;
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">FB Link: https://goo.gl/UUXCAu</text><text y="65" style="font-size: 1.1em;" x="37">Discord Link: https://discord.gg/7Vewjg7</text><text y="85" style="font-size: 1.1em;" x="37">Steam: https://goo.gl/YhxSRz</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed roles scroll.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed user typing in DMs.</text><text y="180" style="font-size: 1.1em;" x="37">3.Fixed login screen.</text></g></svg>');
+  animation: CLog 10s infinite linear;
+}
+
+@keyframes CLog {
+  from {
+  -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+  -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+.theme-dark .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region{
+  background: rgba(0,0,0,var(--Background-Brightness)) !important;
+}
+
+.theme-dark .ui-standard-sidebar-view {
+  background: var(--Settings-Background) 50% 50%/cover !important;
+}
+
+.callout-backdrop,.modal-1UGdnR,.header-2BwW8b,.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+  background: rgba(0, 0, 0, var(--Background-Brightness))!important;
+}
+
+.backdrop-1ocfXc{
+  background: var(--Callout-Background) 50% 50%/cover !important;
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.flex-vertical.flex-spacer > div:nth-child(2) > div > div.content-region > div > div > div > div.content-column.default > div > div.userSettingsAccount-2WOnTW > div > div > div > div:nth-child(2) > div:nth-child(2) > div, .multiInput-1e2xJ7 {
+  transition: filter .15s ease-in-out;
+}
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.flex-vertical.flex-spacer > div:nth-child(2) > div > div.content-region > div > div > div > div.content-column.default > div > div.userSettingsAccount-2WOnTW > div > div > div > div:nth-child(2) > div:nth-child(2) > div:not(:hover), .multiInput-1e2xJ7:not(:hover) {
+  filter: blur(6px); 
+}
+
+.emojiPicker-3m1S-j .no-search-results,.theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg{
+  color: var(--Main-Colour);
+}
+
+
+userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2):hover {
+  transition: filter .15s ease-in-out;
+}
+
+.userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2):not(:hover) {
+  filter: blur(6px); 
+}
