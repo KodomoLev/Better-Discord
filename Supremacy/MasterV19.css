@@ -1,5 +1,5 @@
  /* transparency */
-.appMount-3VJmYg,#app-mount .layers-3iHuyZ,#app-mount .layer-3QrUeG,#app-mount .guildsWrapper-5TJh6A,.channels-Ie2l6A,.container-PNkimc,#app-mount .chat-3bRxxu ,#app-mount .noChannel-Z1DQK7 ,#app-mount .chat-3bRxxu  form,#app-mount .content-yTz4x3,#app-mount .title-3qD0b-,#app-mount .members-1998pB,#app-mount .messagesWrapper-3lZDfY,#app-mount .headerBar-UHpsPw,#app-mount .activityFeed-28jde9,#app-mount .card-7JP0BX,#app-mount .header-1RC2Wb,.theme-dark .gameLibrary-TTDw4Y,#app-mount .applicationStore-1pNvnv,#app-mount .contentRegion-3nDuYy,#app-mount .sidebarRegion-VFTUkN,#app-mount #friends{background:transparent}
+.tabBar-1E2ExX .primary-3j8BhM, .searchBar-2_Yu-C.searchBarLight-1NxoDG, .theme-dark .container-3gCOGc, .appMount-3VJmYg,#app-mount .layers-3iHuyZ,#app-mount .layer-3QrUeG,#app-mount .wrapper-1Rf91z,.channels-Ie2l6A,.container-PNkimc,#app-mount .chat-3bRxxu ,#app-mount .noChannel-Z1DQK7 ,#app-mount .chat-3bRxxu  form,#app-mount .content-yTz4x3,#app-mount .title-3qD0b-,#app-mount .members-1998pB,#app-mount .messagesWrapper-3lZDfY,#app-mount .headerBar-UHpsPw,#app-mount .activityFeed-28jde9,#app-mount .card-7JP0BX,#app-mount .header-1RC2Wb,.theme-dark .gameLibrary-TTDw4Y,#app-mount .applicationStore-1pNvnv,#app-mount .contentRegion-3nDuYy,#app-mount .sidebarRegion-VFTUkN,#app-mount #friends{background:transparent}
 .lookLink-9FtZy-.colorBrand-3pXr91{color:rgb(255,255,255)}
 .messages-3amgkR,
 .messagesWrapper-3lZDfY,
@@ -103,28 +103,44 @@
 .theme-dark .input-cIJ7To:focus{border-color:rgb(0,0,0)}
 .lookFilled-1Gx00P.colorBrand-3pXr91{background-color: #8e1b35}
 
-/* guild list */
-.guildsWrapper-5TJh6A{width:62px;z-index: 3}
-.guildsWrapper-5TJh6A .guilds-1q_RqH{background: rgba(0,0,0,.4);padding:10px 0 10px 6px}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:hover{z-index:4}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before{background: rgba(255,255,255,.4);width:50px;height:30px;left:0;top:-3px;margin:0;border-radius:8px;z-index:-1}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .badge-1GsMF2{width:50px;height:28px;left:0;top:25px;padding:0;border-radius:8px;text-align:center;line-height:40px;transition:.2s;z-index:-1;}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:hover .badge-1GsMF2{padding-top:14px;transition:.2s}
-.guildsWrapper-5TJh6A .guildsAdd-21_IdK{background: rgba(0,0,0,.2);border: 1px dashed #2ecc71;border-radius: 12px}
-.guildsWrapper-5TJh6A .guildsAdd-21_IdK:hover{border-color:#22aa5a}
-.guildsWrapper-5TJh6A .guildsAddInner-1KMFy- {background: url("https://i.imgur.com/1MfzLoF.png") no-repeat center/14px;color: transparent}
+
+
+/* Guild */
+.wrapper-1Rf91z{width:62px;border-radius:0}
+.wrapper-1Rf91z .scroller-2TZvBN{background:rgba(0,0,0,.4);padding:6px}
+
+.selected-nT-gM3:before, .unread-2OHH1w:before{height:10px;width:10px;margin:0;top:-3px;left:0;border-radius:8px}
+.wrapper-1Rf91z .wrapper-2lTRaf{border-radius:25px!important;transition:.2s linear;background:rgb(45,44,36)!important}
+.wrapper-1Rf91z .container-2td-dC:hover .wrapper-2lTRaf{border-radius:10px!important}
+.wrapper-1Rf91z .selected-nT-gM3:before{background:rgba(255, 255, 255,.8)}
+.wrapper-1Rf91z .unread-2OHH1w:before{height:10px;width:10px;margin:0;top:-3px;left:0;border-radius:8px;background:hsla(308, 100%, 50%, 1)}
+
+.wrapper-1Rf91z .homeIcon-tEMBK1{background:transparent url("https://cdn.discordapp.com/attachments/390677094289637388/428920861937106945/friendiconfinal.png") no-repeat center/42px 40px}
+.wrapper-1Rf91z .homeIcon-tEMBK1 g{display:none}
+
+.theme-dark .circleIconButton-jET_ig{background:rgba(0,0,0,.2);border:1px dashed #2ecc71;border-radius:12px}
+.theme-dark .circleIconButton-jET_ig:hover{border-color:#22aa5a}
+.theme-dark .circleIconButton-jET_ig .plus-3UqSQu{background:url("https://i.imgur.com/1MfzLoF.png") no-repeat center/20px;color:transparent}
+.theme-dark .circleIconButton-jET_ig svg g path {fill:#2ecc71}
 
 /* Channel */
-#app-mount .guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A,#app-mount .channels-Ie2l6A:hover{left:62px;opacity:1}
-.container-iksrDt {background-color: rgba(20, 20, 20,1);margin-bottom:21px}
-#app-mount .channels-Ie2l6A{position: absolute;height:98%;left:-178px;background: -webkit-linear-gradient(left, rgba(25, 25, 25, .9) 0.9%,rgba(25, 25, 25, .7) 100%) !important;box-shadow:-61px 0 rgba(10,10,10,.66);transition:.2s linear;opacity:0;z-index:101}
-.unread-1Dp-OI {background-color:#f04747 !important;border-radius:10px;width:3px;height:30px;top:1px;margin-top:1px;left: 3px}
-.icon-sxakjD {display: block; margin-right: -10px; opacity: 0}
-.colorDefaultText-oas-QM,.colorDefaultVoice-3wYlhb,.colorLockedText-1VRkPt,.colorLockedVoice-2UlBjl, {color: #dbdcdc;text-shadow: 1px 1px 7px black}
-.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB{color:#d63e3e}
-.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {color: #f04747!important}
-.private-channels .channel:hover a,.contentHoveredText-2D9B-x{background-color: rgba(0,0,0,.2); border-radius: 0px; transition: 0.1s}
-.contentSelectedText-3wUhMi {background-color: rgba(0,0,0,0.6); border-radius: 0px; transition:0.1s}
+.wrapper-1Rf91z:hover ~ div .channels-Ie2l6A,.channels-Ie2l6A:hover{width:240px}
+.channels-Ie2l6A{width:0;transition:.3s;background:rgba(0, 0, 0, .7);overflow:hidden}
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H{color:#f04747}
+.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB{color:#bb3636}
+.unread-1Dp-OI{height:100%;width:100%;margin:0;top:0;left:0;border-left:5px solid #f04747;background:transparent}
+.icon-sxakjD{display:none}
+.nameSelectedText-sp_EUw{color:rgb(250,250,250)}
+.nameHoveredText-1uO31y{color:rgb(230,230,230)}
+.nameUnreadText-DfkrI4{color:rgb(200,200,200)}
+.nameDefaultText-24KCy5{color:rgb(150,150,150)}
+.nameLockedText-3pqQcL{color:rgb(100,100,100)}
+.nameMutedText-3Vj4bM{color:rgb(80,80,80)}
+.channel-2QD9_O.selected-1HYmZZ a,.contentSelectedText-3wUhMi{background:rgba(0, 0, 0, .2)}
+.channel-2QD9_O:hover a,.contentHoveredText-2D9B-x{background:rgba(0, 0, 0, .4)}
+.channels-Ie2l6A .wrapper-232cHJ{border-radius:0}
+.search-bar,.searchBar-6Kv8R2{background:transparent}
+.inner-1W0Bkn{border-radius:0px}
 
 /*profile popout*/
 .theme-dark .quickMessage-1yeL4E {background-color: transparent;border-color: transparent;color: hsla(0,0%,100%,.7)}
@@ -363,6 +379,16 @@ a,
 	background-color: transparent !important;
 	/*transform: scale(1.075);*/
 }
+
+ /* scrollbar */
+#app-mount *::-webkit-scrollbar,#app-mount *::-webkit-scrollbar-track,#app-mount *::-webkit-scrollbar-track-piece,#app-mount .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,#app-mount .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,#app-mount .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,#app-mount #bda-qem-favourite-container .scroller::-webkit-scrollbar,#app-mount #bda-qem-favourite-container .scroller::-webkit-scrollbar-track,#app-mount #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,#app-mount #bda-qem-twitch-container .scroller::-webkit-scrollbar,#app-mount #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,#app-mount #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece{background:transparent!important;border-color:transparent!important}
+#app-mount *::-webkit-scrollbar-thumb,#app-mount .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-thumb,#app-mount #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb,#app-mount #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb{background:hsla(308, 100%, 50%, 1)!important;border-color:transparent!important}
+ 
+ .tabBar-1E2ExX .primary-3j8BhM, .searchBar-2_Yu-C.searchBarLight-1NxoDG, .theme-dark .container-3gCOGc, .appMount-3VJmYg,#app-mount .layers-3iHuyZ,#app-mount .layer-3QrUeG,#app-mount .guildsWrapper-5TJh6A,.channels-Ie2l6A,.container-PNkimc,#app-mount .chat-3bRxxu ,#app-mount .noChannel-Z1DQK7 ,#app-mount .chat-3bRxxu  form,#app-mount .content-yTz4x3,#app-mount .title-3qD0b-,#app-mount .members-1998pB,#app-mount .messagesWrapper-3lZDfY,#app-mount .headerBar-UHpsPw,#app-mount .activityFeed-28jde9,#app-mount .card-7JP0BX,#app-mount .header-1RC2Wb,.theme-dark .gameLibrary-TTDw4Y,#app-mount .applicationStore-1pNvnv,#app-mount .contentRegion-3nDuYy,#app-mount .sidebarRegion-VFTUkN,#app-mount #friends{background:transparent}
+ 
+ /* Store */
+#app-mount .itemBackground-1jfD8p{background:red}
+#app-mount .itemBackground-1jfD8p:before{background:radial-gradient(ellipse at top,transparent,#414038),linear-gradient(90deg,#414038 0,transparent 40%,transparent 60%,#414038),linear-gradient(0deg,#414038 0,transparent 25%)}
 
 /* chat bar */
 
