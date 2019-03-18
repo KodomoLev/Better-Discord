@@ -821,15 +821,3 @@ a,
     background:transparent !important;
     box-shadow:none !important;
 }
-
-/* Everyone */
-.everyonePopout-nEbJY3{
-	background-color: rgba(0,0,0,0.6) !important;
-}
-.everyonePopout-nEbJY3 .footer-2aTx0s{
-	background-color: rgba(0,0,0,0.8) !important;
-}
-.everyonePopout-nEbJY3 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
-	color: var(--hover-color);
-	border-color: var(--hover-color);
-}
