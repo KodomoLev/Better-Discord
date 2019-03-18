@@ -285,64 +285,6 @@
 #app-mount #bda-qem button:hover{background: rgb(0,0,0)}
 #app-mount #bda-qem button.active{background: rgb(90,90,90)}
 
-/* Mentions / Pinned */
-.wrapper-3WhCwL {
-  background:var(--Main-Colour);
-  color:#fff !important;
-  border-radius:3px;
-}
-.da-isMentionedCozy:after {
-    border-color:var(--hover-color);
-}
-.da-isMentionedCozy {
-    background:var(--main-color-faded) !important;
-}
-
-@keyframes slide-up {
-  from {
-      transform: translate(0%, 10%);
-  }
-}
-@keyframes slide-down {
-  from {
-      transform: translate(0%, -5%);
-  }
-}
-.iconBadge-2dji3k {
-    border-color:rgba(0,0,0,0.8) !important;
-}
-.header-ykumBX,
-.footer-1kmXd4 {
-    background:rgba(0,0,0,0.5) !important;
-}
-.messageGroupWrapper-o-Zw7G {
-    background:rgba(0,0,0,0.6) !important;
-    border:none;
-    transition:250ms ease-in-out border;
-}
-.messageGroupWrapper-o-Zw7G:hover {
-    border:2px solid var(--hover-color) !important;
-}
-.jumpButton-3DTcS_,
-.jump-button {
-    background:var(--Main-Colour) !important;
-}
-.actionButtons-1sUUug {
-    background:transparent !important;
-    box-shadow:none !important;
-}
-
-/* @Everyone */
-.everyonePopout-nEbJY3{
-	background-color: rgba(0,0,0,0.6) !important;
-}
-.everyonePopout-nEbJY3 .footer-2aTx0s{
-	background-color: rgba(0,0,0,0.8) !important;
-}
-.everyonePopout-nEbJY3 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
-	color: var(--hover-color);
-	border-color: var(--hover-color);
-}
 
 /* friend */
 .theme-dark #friends .friends-table .friends-row:hover{background:rgb(0,0,0)}
@@ -831,4 +773,63 @@ a,
 }
 .container-2Thooq .avatar-3JE4B3 {
   transition:250ms all linear;
+}
+
+/* Mentions / Pinned */
+.wrapper-3WhCwL {
+  background:var(--Main-Colour);
+  color:#fff !important;
+  border-radius:3px;
+}
+.da-isMentionedCozy:after {
+    border-color:var(--hover-color);
+}
+.da-isMentionedCozy {
+    background:var(--main-color-faded) !important;
+}
+
+@keyframes slide-up {
+  from {
+      transform: translate(0%, 10%);
+  }
+}
+@keyframes slide-down {
+  from {
+      transform: translate(0%, -5%);
+  }
+}
+.iconBadge-2dji3k {
+    border-color:rgba(0,0,0,0.8) !important;
+}
+.header-ykumBX,
+.footer-1kmXd4 {
+    background:rgba(0,0,0,0.5) !important;
+}
+.messageGroupWrapper-o-Zw7G {
+    background:rgba(0,0,0,0.6) !important;
+    border:none;
+    transition:250ms ease-in-out border;
+}
+.messageGroupWrapper-o-Zw7G:hover {
+    border:2px solid var(--hover-color) !important;
+}
+.jumpButton-3DTcS_,
+.jump-button {
+    background:var(--Main-Colour) !important;
+}
+.actionButtons-1sUUug {
+    background:transparent !important;
+    box-shadow:none !important;
+}
+
+/* @Everyone */
+.everyonePopout-nEbJY3{
+	background-color: rgba(0,0,0,0.6) !important;
+}
+.everyonePopout-nEbJY3 .footer-2aTx0s{
+	background-color: rgba(0,0,0,0.8) !important;
+}
+.everyonePopout-nEbJY3 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+	color: var(--hover-color);
+	border-color: var(--hover-color);
 }
